@@ -1,0 +1,273 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*css for small size screen --> mobile phones*/
+@media(min-width:300px) and (max-width:540px){
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formBox{
+    width: 95%;
+    height: fit-content;
+    padding: 1rem 0px;
+    box-shadow: 0.1rem 0.1rem 1rem gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 255, 8, 0.352), rgba(0, 0, 255, 0.34));
+  }
+  .formBox h2{
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+  }
+  form{
+    width: 80%;
+    height: fit-content;
+  }
+  form label{
+    text-transform: capitalize;
+    font-size: 22px;
+    display: block;
+    font-weight: bold;
+  }
+  form > input{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid black;
+    padding: 0.5rem 0px;
+    text-transform: capitalize;
+    background-color: transparent;
+    &:focus{
+      outline: none;
+    }
+  }
+  form > input[type="email"]{
+    text-transform: lowercase;
+  }
+  textarea{
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    background-color: transparent;
+    text-transform: capitalize;
+    &:focus{
+      outline:none;
+    }
+  }
+  .btnBox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+  }
+  form .btnBox input[type="submit"]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  form .btnBox input[type="reset"]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+
+
+/*css for medium size screen --> tablet phones*/
+@media(min-width:541px) and (max-width:1024px){
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formBox{
+    width: 50%;
+    height: fit-content;
+    padding: 1rem 0px;
+    box-shadow: 0.1rem 0.1rem 1rem gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 255, 8, 0.352), rgba(0, 0, 255, 0.34));
+  }
+  .formBox h2{
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+  }
+  form{
+    width: 75%;
+    height: fit-content;
+  }
+  form label{
+    text-transform: capitalize;
+    font-size: 22px;
+    display: block;
+    font-weight: bold;
+  }
+  form > input{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid black;
+    padding: 0.5rem 0px;
+    text-transform: capitalize;
+    background-color: transparent;
+    &:focus{
+      outline: none;
+    }
+  }
+  form > input[type="email"]{
+    text-transform: lowercase;
+  }
+  textarea{
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    background-color: transparent;
+    text-transform: capitalize;
+    &:focus{
+      outline:none;
+    }
+  }
+  .btnBox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+  }
+  form .btnBox input[type="submit"]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  form .btnBox input[type="reset"]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+
+/*css for large size screen --> Desktop*/
+@media(min-width:1025px) and (max-width:2400px){
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formBox{
+    width: 35%;
+    height: fit-content;
+    padding: 1rem 0px;
+    box-shadow: 0.1rem 0.1rem 1rem gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 255, 8, 0.352), rgba(0, 0, 255, 0.34));
+  }
+  .formBox h2{
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+  }
+  form{
+    width: 75%;
+    height: fit-content;
+  }
+  form label{
+    text-transform: capitalize;
+    font-size: 22px;
+    display: block;
+    font-weight: bold;
+  }
+  form > input{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid black;
+    padding: 0.5rem 0px;
+    text-transform: capitalize;
+    background-color: transparent;
+    &:focus{
+      outline: none;
+    }
+  }
+  form > input[type="email"]{
+    text-transform: lowercase;
+  }
+  textarea{
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    background-color: transparent;
+    text-transform: capitalize;
+    &:focus{
+      outline:none;
+    }
+  }
+  .btnBox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+  }
+  form .btnBox input[type="submit"]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  form .btnBox input[type="reset"]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

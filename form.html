@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <title>HTMLFORM</title>
+</head>
+<body>
+  <div class="container">
+    <div class="formBox">
+      <h2>contact us</h2>
+      <br>
+      <br>
+      <form action="">
+        <label for="name">name:</label>
+        <input type="text" id="name" required pattern ="^[A-Za-z\s] {2, 50}$" placeholder="full name">
+        <br>
+        <br>
+        <label for="number">mobile no:</label>
+        <input type="tel" id="number" required pattern="^\+977\s?[6-9]\d{9}$" placeholder="+977 9814270005">
+        <br>
+        <br>
+        <label for="email">email</label>
+        <input type="email" id="email" required placeholder="ersatyanarayansahani@gmail.com">
+        <br>
+        <br>
+        <textarea name="message" id="message" placeholder="message..." rows="7"></textarea>
+        <br>
+        <br>
+        <br>
+        <div class="btnBox">
+          <input type="submit" id="submit">
+          <input type="reset" id="reset">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="javaScript.js"></script>
+</body>
+</html>
